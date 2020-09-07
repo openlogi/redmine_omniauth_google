@@ -100,7 +100,7 @@ class RedmineOauthControllerTest < ActionController::TestCase
   end
 
   def test_oauth_google_callback_with_not_allowed_email_domain
-    Setting.plugin_redmine_omniauth_google[:allowed_domains] = "twinslash.com"
+    Setting.plugin_redmine_omniauth_google[:allowed_domains] = "openlogi.com"
     set_response_body_stub
     get :oauth_google_callback
     assert_redirected_to :signin

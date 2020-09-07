@@ -6,8 +6,8 @@ Redmine::Plugin.register :redmine_omniauth_google do
   author 'Dmitry Kovalenok'
   description 'This is a plugin for Redmine registration through google'
   version '0.0.1'
-  url 'https://github.com/twinslash/redmine_omniauth_google'
-  author_url 'http://twinslash.com'
+  url 'https://github.com/openlogi/redmine_omniauth_google'
+  author_url 'http://openlogi.com'
 
   settings :default => {
     :client_id => "",
